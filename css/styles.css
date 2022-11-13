@@ -55,6 +55,10 @@ p {
 }
 
 .link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -69,10 +73,9 @@ p {
   list-style: none;
 }
 .list .item {
-  margin-top: 32px;
   margin-right: 50px;
-  margin-bottom: 32px;
 }
+
 .list .item:last-child {
   margin-right: 0;
 }
@@ -83,10 +86,11 @@ p {
 }
 
 .link-address {
+  display: inline-flex;
   margin-right: 50px;
   margin-left: 344px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--info-text);
   text-decoration: none;
@@ -106,13 +110,15 @@ p {
 }
 
 .hero-title {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 
   background-color: var(--bgc-color);
 }
 
 .title {
-  padding-top: 200px;
+  /*padding-top: 200px;*/
   margin-top: 0;
   margin-bottom: 30px;
 
@@ -132,6 +138,9 @@ p {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.no-section {
+  padding-top: 0;
 }
 
 .photo {
@@ -153,7 +162,7 @@ p {
   padding: 10px 32px;
   min-width: 216px;
   text-align: center;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px;*/
 
   font-family: 'Roboto';
   background-color: var(--accent-color);
@@ -175,6 +184,7 @@ p {
 }
 
 .hero-item {
+  width: 270px;
   margin-right: 30px;
 }
 .hero-item:last-child {
@@ -202,6 +212,11 @@ p {
   list-style: none;
 }
 
+.personnel {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .worker-list {
   margin-right: 30px;
 }
@@ -209,7 +224,7 @@ p {
   margin-right: 0;
 }
 .worker {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -221,7 +236,7 @@ p {
 }
 .workplace {
   margin-top: 0;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px;*/
 
   color: var(--info-text);
   font-size: 16px;
@@ -255,7 +270,7 @@ p {
   letter-spacing: 0.03em;
 }
 .contacts:last-child {
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
 .contacts:hover,
 .contacts:focus {
@@ -283,6 +298,9 @@ p {
   margin-bottom: 20px;
 }
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--bgc-color);
 }
 
@@ -352,18 +370,18 @@ p {
 
 .details {
   text-align: left;
-  border-bottom: 1px solid #eeeeee;
+  /*border-bottom: 1px solid #eeeeee;*/
 }
 
 .projects {
-  margin: 20px 24px 4px;
+  margin-bottom: 4px;
 
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .jobs {
-  margin: 0 24px 20px;
+  /* margin: 0 24px 20px;*/
 
   color: var(--info-text);
   font-size: 16px;
@@ -371,5 +389,8 @@ p {
   letter-spacing: 0.03em;
 }
 .frame {
-  border: 1px solid transparent;
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
